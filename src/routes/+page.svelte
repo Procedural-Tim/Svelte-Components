@@ -1,9 +1,21 @@
 <script>
-	import { Bar } from '$lib';
+	import { Bar, Line } from '$lib';
 </script>
 
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="container">
+	<h>Bar Graph</h>
+	<Bar />
+</div>
+<div class="container">
+	<h>Line Graph</h>
+	<Line />
+</div>
 
-<Bar />
+<style>
+	.container {
+		height: 200px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+</style>
