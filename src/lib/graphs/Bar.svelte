@@ -1,6 +1,7 @@
 <script lang="ts">
 	// TODO: Support non 0 start of y axis
 	// TODO: Support styling/handlers for individual parts
+	// TODO: Support hiding elements
 	export let xAxisLabel = 'X Axis';
 	export let yAxisLabel = 'Y Axis';
 	export let entries = [
@@ -48,7 +49,7 @@
 
 	const bars = values.map((v, ind) => {
 		const percent = v / yAxisMax;
-		const color = barColors[ind % 9];
+		const color = barColors[ind % barColors.length];
 
 		return {
 			percent: `${percent * 100}%`,

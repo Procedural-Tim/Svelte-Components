@@ -1,4 +1,5 @@
 import { default as Bar } from './graphs/Bar.svelte';
 import { default as Line } from './graphs/Line.svelte';
+import { default as Pie } from './graphs/Pie.svelte';
 
-export { Bar, Line };
+export { Bar, Line, Pie };

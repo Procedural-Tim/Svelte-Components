@@ -1,0 +1,6 @@
+- Standardize component external attributes, ie use entries for all graphs.
+- Add a data validation layer for all components
+- Unit tests for all components
+- Stories for all components
+- Consider switching bar chart to svg for consistency
+- Update the main readme
