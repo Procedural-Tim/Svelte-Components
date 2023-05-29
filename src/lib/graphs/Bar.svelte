@@ -2,6 +2,8 @@
 	// TODO: Support non 0 start of y axis
 	// TODO: Support styling/handlers for individual parts
 	// TODO: Support hiding elements
+	import sampleColors from '../constants/sample-colors.json';
+
 	export let xAxisLabel = 'X Axis';
 	export let yAxisLabel = 'Y Axis';
 	export let entries = [
@@ -20,17 +22,7 @@
 	];
 	export let incrementCount = 4;
 
-	export let barColors = [
-		'#44ffff',
-		'#ff44ff',
-		'#ffff44',
-		'#88ffff',
-		'#ff88ff',
-		'#ffff88',
-		'#ccffff',
-		'#ffccff',
-		'#ffffcc'
-	];
+	export let barColors = sampleColors;
 	export let barSpacingCount = entries.length * 1.5;
 
 	function numDigits(num) {

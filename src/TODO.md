@@ -1,6 +1,11 @@
-- Standardize component external attributes, ie use entries for all graphs.
+- Standardize component external attributes, ie use values for all graphs.
 - Add a data validation layer for all components
 - Unit tests for all components
 - Stories for all components
-- Consider switching bar chart to svg for consistency
 - Update the main readme
+- Package global styles with the components somehow?
+- Switch to ems for all measurements to keep it consistent
+- Switch to sample data files
+- Move all components to sample colors
+- Convert all graphs to width 100% aspect-ration 1/1
+- CSS variables, css needs to be more DRY

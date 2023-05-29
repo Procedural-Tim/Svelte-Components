@@ -1,0 +1,110 @@
+{
+	"xAxisLabel": "Sample X Axis Label",
+	"COMMENT": "TODO: Test with duplicate data",
+	"values": [
+		{
+			"x": "dog",
+			"y": "age 11-20",
+			"z": 2
+		},
+		{
+			"x": "dog",
+			"y": "age 21-30",
+			"z": 4
+		},
+		{
+			"x": "dog",
+			"y": "age 31-40",
+			"z": 6
+		},
+		{
+			"x": "dog",
+			"y": "age 41+",
+			"z": 8
+		},
+
+		{
+			"x": "cat",
+			"y": "age 11-20",
+			"z": 8
+		},
+		{
+			"x": "cat",
+			"y": "age 21-30",
+			"z": 6
+		},
+		{
+			"x": "cat",
+			"y": "age 31-40",
+			"z": 4
+		},
+		{
+			"x": "cat",
+			"y": "age 41+",
+			"z": 2
+		},
+
+		{
+			"x": "duck",
+			"y": "age 11-20",
+			"z": 1
+		},
+		{
+			"x": "duck",
+			"y": "age 21-30",
+			"z": 3
+		},
+		{
+			"x": "duck",
+			"y": "age 31-40",
+			"z": 6
+		},
+		{
+			"x": "duck",
+			"y": "age 41+",
+			"z": 9
+		},
+
+		{
+			"x": "goose",
+			"y": "age 11-20",
+			"z": 3
+		},
+		{
+			"x": "goose",
+			"y": "age 21-30",
+			"z": 6
+		},
+		{
+			"x": "goose",
+			"y": "age 31-40",
+			"z": 6
+		},
+		{
+			"x": "goose",
+			"y": "age 41+",
+			"z": 9
+		},
+
+		{
+			"x": "Llama",
+			"y": "age 11-20",
+			"z": 1
+		},
+		{
+			"x": "Llama",
+			"y": "age 21-30",
+			"z": 2
+		},
+		{
+			"x": "Llama",
+			"y": "age 31-40",
+			"z": 3
+		},
+		{
+			"x": "Llama",
+			"y": "age 41+",
+			"z": 11
+		}
+	]
+}
