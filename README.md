@@ -1,6 +1,6 @@
 # Vision
 
-An easy to use web based data visualization and transformation library built in Svelte.
+An easy to use web based data visualization and transformation library built by Svelte kit and using the Svelte framework.
 
 # Philosophy (not fully implemented)
 
