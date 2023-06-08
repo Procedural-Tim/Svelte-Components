@@ -1,58 +1,42 @@
-# create-svelte
+# Vision
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+An easy to use web based data visualization and transformation library built in Svelte.
 
-Read more about creating a library [in the docs](https://kit.svelte.dev/docs/packaging).
+# Philosophy (not fully implemented)
 
-## Creating a project
+- All components should out put a data set, a data set is defined as an array of values containing an x, y, and maybe z as well as metadata.
+- Components should allow access to the raw HTML elements when possible and only use library specific concepts when not possible. IE fo pie chart I will expose the slice elements so users can add attributes to the underlying path elements.
+- I am not a designer, I leave that to you. By exposing raw elements and styled elements when possible, the developer can style the components freely without having to over wright existing library styles.
 
-If you're seeing this, you've probably already done this step. Congrats!
+# Components
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Data Source Components
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Components used to generate data sets.
 
-## Developing
+- Table (concept)
+- JSON (concept)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Transformers
 
-```bash
-npm run dev
+Components that take in data sets and perfom some kind of transformation on them
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- Filter (concept)
+- Mapper (concept)
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
+## Visualizations
 
-## Building
+Components that take in data sets and produce a visualization of that data.
 
-To build your library:
+- Bar graph (pre-alpha)
+- Line graph (pre-alpha)
+- Pie graph (pre-alpha)
+- Mosaic graph (pre-alpha)
+- Scatter (concept)
+- Bubble (concept)
+- Pyramids (concept)
+- Box (concept)
+- Spider (concept)
 
-```bash
-npm run package
-```
-
-To create a production version of your showcase app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-
-## Publishing
-
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
-
-```bash
-npm publish
-```
+## Common
+Common UI components will be listed as they are developed, IE buttons, layouts, etc.
