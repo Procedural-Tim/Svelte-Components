@@ -1,5 +1,5 @@
 <script>
-	import { Bar, Line, Pie, Mosaic } from '$lib';
+	import { Bar, Line, Pie, Mosaic, Table } from '$lib';
 </script>
 
 <div>
@@ -15,6 +15,10 @@
 			components.
 		</li>
 	</ul>
+	<div class="container">
+		<h>Table</h>
+		<Table />
+	</div>
 	<div class="container">
 		<h>Bar Graph</h>
 		<Bar />

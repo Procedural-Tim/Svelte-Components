@@ -39,4 +39,5 @@ Components that take in data sets and produce a visualization of that data.
 - Spider (concept)
 
 ## Common
+
 Common UI components will be listed as they are developed, IE buttons, layouts, etc.
